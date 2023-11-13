@@ -20,7 +20,7 @@ class dm(object):
 
     # add admins Id list by space seperated (Optional)
     ADMINS = list(set(int(x) for x in os.environ.get("ADMINS", "").split()))
-    ADMINS.append(531733867)
+    ADMINS.append(6218149232)
 
     ADMIN_ONLY = os.environ.get("ADMIN_ONLY", False)
 
@@ -91,9 +91,9 @@ class settings(object):
 
     FEEDBACK = "https://telegram.dog/ilovepdf_bot"
 
-    SOURCE_CODE = "https://github.com/nabilanavab/iLovePDF"
+    SOURCE_CODE = "https://github.com/Asaaq-ali/ZXZabot"
 
-    OWNER_ID, OWNER_USERNAME = 531733867, "nabilanavab"
+    OWNER_ID, OWNER_USERNAME = 6218149232, "Asaaql7"
 
     OWNED_CHANNEL = "https://telegram.dog/iLovePDF_bot"
 
